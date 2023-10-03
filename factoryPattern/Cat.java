@@ -20,4 +20,8 @@ public class Cat implements Pet {
     public String play() {
         return "Catching/pursuing moving objects!";
     }
+
+    public void displayNumberOfLives() {
+        System.out.println("Number of lives: " + noOfLives);
+    }
 }
